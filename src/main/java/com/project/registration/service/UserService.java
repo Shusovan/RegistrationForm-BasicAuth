@@ -60,6 +60,11 @@ public class UserService
     }
 
 
+    /*
+     * description : fetchs the user with books after successfull login
+     * method : getCurrentUserWithBooks
+     * return : user with books
+     */
     public UserDto getCurrentUserWithBooks() 
     {
         String username = SecurityContextHolder.getContext().getAuthentication().getName();
